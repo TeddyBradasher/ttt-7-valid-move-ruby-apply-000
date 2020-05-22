@@ -10,6 +10,7 @@ end
 def position_taken?(board, position)
   if board[position] == " " or board[position] == "" or board[position] == nil
   	return false
-  else return true
+  else 
+    return true
   end
 end 
